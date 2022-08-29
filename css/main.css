@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: masonry;
+}
+
+body {
+    background-color: #000;
+}
+
+img {
+    max-width: 100%;
+    display: grid;
+}
+
+.heading-text {
+    color: bisque;
+    font: 3.0em Arial, Helvetica, sans-serif;
+}
